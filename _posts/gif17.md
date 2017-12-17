@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      李飞飞Gif.17观感
+subtitle:   AI的未来和自己的前方
+date:       2017-12-17
+author:     BY idealwhite
+header-img: img/post-bg-debug.png
+catalog: true
+tags:
+    - AI
+    - NLP
+    - Semantics
+    - Multimodal
+---
+#李飞飞Gif.17观感
+
+李飞飞提及了实现人工智能这个目标的三个大任务，即syntax(World structure and Language syntax), semantics(Understanding),inference，而每项任务涵盖Language和Vision两个维度。当前DeepLearning技术引出的进步使得人工智能在Syntax任务(3d Vision)和部分Semantic任务(ImageNet)中的水平都有很大的提高(未提及的NLP领域也有与此类似的进步)。
+在CV领域取得目前为止的巨大进步之后，李飞飞的团队认为目前需要在Semantic任务中实现CV和NLP的联动，他们最近的工作就包含了Image Caption以及长内容的Image Caption。同时，他们还制作了CLEVR这个Visual QA的数据集。
+
+李飞飞对三大任务及AI发展的现状的总结，主要是从CV的角度而言。同样，我们可以简单总结NLP领域当前的工作。我对文本处理了解太粗浅，只能简单归纳一下。
+首先，Syntax应该和语言模型相关的任务有关，RNN系列的神经网络使得语言模型取得了很大的进步，其上下文作用范围可以涵盖整个句子甚至长段的文本。
+Semantics对应的领域则包括word2vec、文本分类、文本摘要、机器翻译、QA等需要语义信息的应用型的课题。
+
+对于李飞飞最后强调的CV+NLP，仍然属于Semantics这部分之中，而Semantics这项任务也正是目前AI研究的阶段，我想可以认为这是Semantics任务的中期。而后期则应是Semantics的understanding拓展到逻辑结构或者类似图结构的表达之中。
+至于Inference，则应该需要“创造力”或者Learning to learn这种水平的能力。
+
+最后，以我的出发点谈谈对语音这部分的想法。对于AI系统而言，语音识别、切分和合成属于syntax部分，他们代表着语音的规则。而语音的情感分析、场景分析则应该属于Semantics部分，它们属于AI对语音的undertanding。当然，如果要将Semantics这部分进多种感知领域的联合理解，语音中的Semantics部分也是其中的重要一环。
